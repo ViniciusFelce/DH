@@ -10,11 +10,12 @@ const IMC = peso / (altura*altura);
 
 console.log("Nome " + nome  + ": " + "Sobre " + sobre  + " " +  "Idade " + idade + " " +  "Peso " + peso + " "+  "Altura " + altura + " "  +  "Plano " + plano + " " + IMC);
   */        
-         
-         
-         function imc (nome,sobrenome,idade,peso,altura,plano){
-             
-            console.log("Nome " + nome  + ": " + "Sobre " + sobre  + " " +  "Idade " + idade + " " +  "Peso " + peso + " "+  "Altura " + altura + " "  +  "Plano " + plano + " " + imc);
-
-         }
-        imc ("jose","da silva",27,83.5,1.70,"ouro")
+       
+function soma (num1,num2,nm3){
+   return num1 / (num2*num3)
+}
+console.log(minhaFuncao);
+function minhaFuncao(nome = "nulo") {
+   console.log("ola! " + nome);
+}
+minhaFuncao();
