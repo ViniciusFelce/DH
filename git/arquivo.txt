@@ -1,5 +1,0 @@
-git config --global user.name Hugo Pinheiro
-git config --global user.email hugopinheirohps@live.com
-git remote add origin https://github.com/hugopinheirohps/intro
-
-
