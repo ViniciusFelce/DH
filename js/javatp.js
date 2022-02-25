@@ -18,4 +18,4 @@ console.log(minhaFuncao);
 function minhaFuncao(nome = "nulo") {
    console.log("ola! " + nome);
 }
-minhaFuncao();
+minhaFuncao(soma);
