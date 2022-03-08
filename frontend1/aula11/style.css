@@ -1,0 +1,13 @@
+.section {
+
+}
+.cards {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 30%;
+    height: 300px;
+    background-color: rgb(61, 49, 49);
+    margin: 1px;
+}

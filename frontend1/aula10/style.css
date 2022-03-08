@@ -14,6 +14,7 @@
     height: 1000px;
     width: 100%;
     background-color: red;
+    display: flex;
 }
 
 * {
@@ -21,22 +22,40 @@
 }
 
 .cards {
-    height: 100px;
+
     width: 30%;
     background-color: rgb(240, 255, 27);
-    align-items: center;
-    left: 40px;
+    display: grid;
+    border: solid;
+    height: 500px;
+    left: 20%;
+    position: relative;
+    bottom: -150px;
+    margin: 1%;
 }
 
-.card {
-    height: 10px;
-    width: 5%;
+.capa {
+    height: 165px;
+    width: 100%;
     background-color: rgb(27, 255, 76);
+    border-radius: 50px 50px 0px 0px;
 }
 
-.card {
-    height: 10px;
-    width: 5%;
-    left: 10px;
-    background-color: rgb(164, 27, 255);
+.foto {
+    height: 95px;
+    width: 25%;
+    border-radius: 100px;
+    background-color: rgb(42, 27, 255);
+    bottom: 285px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
+
+.descri {
+    height: 165px;
+    width: 100%;
+    background-color: rgb(190, 27, 255);
+}
+
+
