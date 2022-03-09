@@ -13,7 +13,6 @@
 .mae {
     height: 1000px;
     width: 100%;
-    background-color: red;
     display: flex;
 }
 
@@ -35,10 +34,11 @@
 }
 
 .capa {
-    height: 165px;
+    height: 200px;
     width: 100%;
     background-color: rgb(27, 255, 76);
     border-radius: 50px 50px 0px 0px;
+    position: relative;
 }
 
 .foto {
@@ -46,16 +46,37 @@
     width: 25%;
     border-radius: 100px;
     background-color: rgb(42, 27, 255);
-    bottom: 285px;
-    margin-right: auto;
-    margin-left: auto;
-
+    bottom: 250px;
+    position: absolute;
+    right: 38%;
 }
 
 .descri {
-    height: 165px;
+    height: 300px;
     width: 100%;
     background-color: rgb(190, 27, 255);
 }
 
+.capa, .capa_img {
+    height: 200px;
+    width: 100%;
+    border-radius: 50px 50px 0px 0px;
+}
 
+.capa, .foto_img {
+    height: 100px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.nome_heroi {
+    margin-top: 150px;
+    margin-left: 145px;
+}
+
+p {
+    width: 320px;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 60px;
+}
