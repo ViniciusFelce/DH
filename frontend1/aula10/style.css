@@ -19,18 +19,26 @@
 * {
     margin: 0%;
 }
+.desc {
+    margin-left: 20px;
+    font-family: Arial;
+}
+
+.supH{
+    margin-left: 40px;
+    font-family: Arial;
+}
 
 .cards {
-
     width: 30%;
-    background-color: rgb(240, 255, 27);
     display: grid;
-    border: solid;
+
     height: 500px;
     left: 20%;
     position: relative;
     bottom: -150px;
     margin: 1%;
+    box-shadow: 0px 10px 7px -5px #000;
 }
 
 .capa {
@@ -61,6 +69,7 @@
     height: 200px;
     width: 100%;
     border-radius: 50px 50px 0px 0px;
+    position: revert;
 }
 
 .capa, .foto_img {
@@ -70,13 +79,53 @@
 }
 
 .nome_heroi {
-    margin-top: 150px;
+    margin-top: 170px;
     margin-left: 145px;
+    font-family: Arial;
 }
 
-p {
+.descH {
     width: 320px;
     text-align: center;
     margin-left: 25px;
     margin-bottom: 60px;
+    font-family: Arial;
+}
+
+a {
+    background: #00669f;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    left: 95px;
+    position: relative;
+    top: -35px;
+}
+
+.like {
+    position: absolute;
+    height: 30px;
+    left: 30px;
+    top: 20px;
+}
+
+.rodape {
+    height: 40px;
+    position: absolute;
+    width: 99.60%;
+    bottom: -500px;
+    background: #00669f;
+}
+
+.rdp {
+    top: 9px;
+    position: absolute;
+    margin-left: 40px;
+    color: aliceblue;
+    font-family: Arial;
 }
