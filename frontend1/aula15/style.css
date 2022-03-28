@@ -3,19 +3,25 @@ body {
     padding: 0;
     height: 100vh;
     background: linear-gradient(135deg, #71e6b9, #b65959);
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .container {
-    border: solid;
-    width: 60vh;
-    height: 60vh;
+    width: 50%;
+    height: 630px;
     background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .formulario{
@@ -28,3 +34,46 @@ body {
 	align-content: center;
 }
 
+.mini_containes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+h1 {
+    font-size: 50px;
+    color: #333;
+}
+label {
+    color:#333;
+}
+
+p {
+    font-size: 10px;
+    color: #333;
+}
+
+input {
+    border: 1px solid #646464;
+    background: transparent;
+    border-radius: 20px;
+    width: 215px;
+    height: 25px;
+}
+
+select {
+    border: 1px solid #646464;
+    background: transparent;
+    border-radius: 20px;
+    width: 222px;
+    height: 30px;
+    color: #333;
+}
+
+textarea {
+    width: 215px;
+    height: 200px;
+    border: 1px solid #646464;
+    background: transparent;
+    border-radius: 10px;
+}
