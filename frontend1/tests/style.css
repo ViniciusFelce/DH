@@ -1,0 +1,24 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: linear-gradient(135deg, #61154e, #2c376d);
+    height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+}
+
+.itens_nav {
+    border: solid;
+    position: fixed;
+    z-index: 1;
+}
+
+.bt_comprar {
+    border: solid;
+}
