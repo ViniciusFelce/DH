@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "Jota",
+        "idade": 20,
+        "localização": "SC",
+        "profissão": {
+            "cargo": "Professor de Front",
+            "empresa": "DigitalHouse"
+        },
+
+        "hobbies": ["Jogar", "Programar", "Ouvir Musica"]
+    },
+
+    {
+        "nome": "Jota",
+        "idade": 20,
+        "localização": "SC",
+        "profissão": {
+            "cargo": "Professor de Front",
+            "empresa": "DigitalHouse"
+        },
+
+        "hobbies": ["Jogar", "Programar", "Ouvir Musica"]
+    }
+
+
+]

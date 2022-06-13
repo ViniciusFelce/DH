@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.label {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+}
+
+.fa-moon {
+    color: rgb(255, 255, 255);
+    
+}
+
+.fa-sun {
+    color: #f8c76b;
+}
+
+.bola {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    left: 2px;
+    top: 2px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s linear;
+    -webkit-transition: transform 0.2s linear;
+    -moz-transition: transform 0.2s linear;
+    -ms-transition: transform 0.2s linear;
+    -o-transition: transform 0.2s linear;
+}
+
+.checkbox {
+    display: none;
+    position: absolute;
+}
+
+.checkbox:checked + .label .bola {
+    transform: translateX(25px);
+    -webkit-transform: translateX(25px);
+    -moz-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    -o-transform: translateX(25px);
+}
+
+.checkbox:checked + .label {
+    background-color: black;
+}
+
+.teste {
+    margin: 0 auto;
+    margin-top: 550px;
+    width: 10vw;
+}
+
+.dark-bg {
+    background-color: black;
+}
