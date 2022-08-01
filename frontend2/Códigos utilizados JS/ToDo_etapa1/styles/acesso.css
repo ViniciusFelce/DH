@@ -1,0 +1,201 @@
+@import url("./common.css");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  color: #747474;
+  font-weight: 300;
+  margin: .5em 0;
+}
+
+form {
+  position: relative;
+  max-width: 26em;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em auto;
+  -webkit-box-shadow: 0 5px 5px lightgrey;
+          box-shadow: 0 5px 5px lightgrey;
+  padding: 1em 2.5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+form:after {
+  position: absolute;
+  content: '';
+  width: .7em;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--primary)), to(var(--secondary)));
+  background: linear-gradient(var(--primary), var(--secondary));
+}
+
+input {
+  width: 100%;
+  padding: .4em .5em;
+  background-color: var(--app-grey);
+  border: 1px solid var(--app-grey);
+  border-radius: .2em;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid lightgrey;
+}
+
+label {
+  width: 100%;
+  font-weight: 300;
+  margin-bottom: -.1em;
+  margin-top: 1em;
+  font-size: .8em;
+}
+
+button {
+  padding: .5em 3em;
+  background-color: var(--primary);
+  color: white;
+  margin-top: 2em;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.form-header {
+  color: grey;
+  font-size: 2em;
+}
+
+.ingressar {
+  text-align: center;
+}
+
+.left {
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left img {
+  width: 60%;
+}
+
+.right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.confirmCadastroLogin {
+  text-align: center;
+  background-color: #95fd2d;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  opacity: 0;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+.formItem {
+  width: 100%;
+  position: relative;
+  height: 85px;
+}
+
+.formItem .fa-eye {
+  position: absolute;
+  bottom: 37px;
+  right: 20px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.formItem .fa-eye-slash {
+  position: absolute;
+  bottom: 37px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.formItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+  position: relative;
+}
+
+.formItem .fa-circle-check {
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  color: green;
+  visibility: hidden;
+}
+
+.formItem .fa-circle-xmark {
+  position: absolute;
+  top: 45px;
+  right: 0px;
+  color: red;
+  visibility: hidden;
+}
+
+.formItem.sucess .fa-circle-check {
+  visibility: visible;
+}
+
+.formItem.sucess input {
+  border: green 2px solid;
+}
+
+.formItem.fail .fa-circle-xmark {
+  visibility: visible;
+}
+
+.formItem.fail input {
+  border: red 2px solid;
+}
+
+.error {
+  color: red;
+}
+/*# sourceMappingURL=acesso.css.map */
